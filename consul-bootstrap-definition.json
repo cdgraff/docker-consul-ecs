@@ -3,7 +3,7 @@
         "essential": true,
         "cpu": 20,
         "memory": 128,
-        "image": "majest/docker-consul-ecs:latest",
+        "image": "cdgraff/docker-consul-ecs:latest",
         "name": "consul-bootstrap",
         "mountPoints": [{
             "containerPath": "/data",
