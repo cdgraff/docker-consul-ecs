@@ -1,3 +1,3 @@
 
 build:
-	docker build -t majest/docker-consul-ecs:$(VERSION) .
+	docker build -t cdgraff/docker-consul-ecs:$(VERSION) .
