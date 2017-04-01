@@ -1,4 +1,4 @@
-FROM gliderlabs/consul:latest
+FROM consul:latest
 ADD ./config /config/
 RUN apk update && apk add bash
 EXPOSE 8300
